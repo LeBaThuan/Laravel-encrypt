@@ -1,0 +1,22 @@
+{
+    "name": "travis_enclave/encryptdata",
+    "description": "enscrypt and descrypt for Laravel5",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Travis",
+            "email": "travis@enclave.vn"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/database": "5.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Encryptable": "src/"
+        }
+    }
+}
+
